@@ -53,6 +53,11 @@ COMMANDS						*repl-commands*
 
 :REPLMap						*:REPLMap*
 	Define mapping custom command to `<Leader><Leader><CR>` .
+	Example: >
+
+	    :REPLMap ansible-playbook -i inventory %
+	    :REPLMap kubectl apply -f %
+<
 
 ------------------------------------------------------------------------------
 MAPPINGS						*repl-mappings*
